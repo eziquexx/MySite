@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6단계(슬라이더Zone)</title>
+    <title>6단계(슬라이더Zone 자바스크립트)</title>
     <script src="./js/jquery.js"></script>
     <style>
         * {
@@ -183,7 +183,7 @@
                     display: flex;
                     position: relative;
                     left: 0; /* 슬라이딩시 좌표 변경으로 슬라이딩 표현 */
-                    /* transition: left 0.5s ease; */
+                    transition: left 0.5s ease;
                 }
                 /* .slider_panel > li */
                 .slider_img {
@@ -252,10 +252,45 @@
                 </div>
             </div>
             <script>
-                // $(function(){
-                //     const $sliderPanel = $('.slider_panel');
-                //     const $controlBtns = $('.control_btn');
-                // });
+                $(function(){
+                    const $sliderPanel = $('.slider_panel');
+                    const $controlBtns = $('.control_btn');
+                    const $leftBtn = $('.left_btn img');
+                    const $rightBtn = $('.right_btn img');
+
+                    let currentIndex = 0;
+                    function updateSlider(index){
+                        $sliderPanel.css('left', `-${index * 100}%`);
+                        $controlBtns.removeClass('active');
+                        $controlBtns.eq(index).addClass('active');
+                        
+                    }
+
+                    $leftBtn.on('click', function(){
+                        currentIndex--;
+                        if(currentIndex < 0){
+                            currentIndex = 0;
+                        }
+                        updateSlider(currentIndex);
+                    });
+                    $rightBtn.on('click', function(){
+                        currentIndex++;
+                        if(currentIndex > 2){
+                            currentIndex = 2;
+                        }
+                        updateSlider(currentIndex);
+                    })
+
+                    $controlBtns.on('click', function(){
+                        currentIndex = parseInt($(this).data('index'));
+                        updateSlider(currentIndex);
+                    });
+
+                    setInterval(function(){
+                        currentIndex = (currentIndex + 1) % $controlBtns.length;
+                        updateSlider(currentIndex);
+                    }, 3000);
+                });
             </script>
             <!-- 슬라이더Zone끝 -->
 
