@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>6단계(슬라이더Zone 자바스크립트)</title>
+    <title>8단계(본문Area 스타일)</title>
     <script src="./js/jquery.js"></script>
     <style>
         * {
@@ -234,9 +234,9 @@
                         <li class="slider_img"><img src="./img/1.jpg" alt=""></li>
                         <li class="slider_img"><img src="./img/2.jpg" alt=""></li>
                         <li class="slider_img"><img src="./img/3.jpg" alt=""></li>
-                        <li class="slider_img"><img src="./img/4.jpg" alt=""></li>
-                        <li class="slider_img"><img src="./img/5.jpg" alt=""></li>
-                        <li class="slider_img"><img src="./img/6.jpg" alt=""></li>
+                        <li class="slider_img"><img src="./img/1.jpg" alt=""></li>
+                        <li class="slider_img"><img src="./img/2.jpg" alt=""></li>
+                        <li class="slider_img"><img src="./img/3.jpg" alt=""></li>
                     </ul>
 
                     <div class="control_panel">
@@ -298,6 +298,27 @@
 
 
         <!-- 본문Area시작 --> 
+        <style>
+            #BodyArea {
+                position: relative;
+                width: 100%;
+                max-width: 1200px;
+                margin: 0 auto;
+                overflow: hidden;
+                height: 300px;
+            }
+            #leftmenuZone {
+                float: left;
+                width: 20%;
+                height: 70%;
+            }
+            #contentsZone {
+                float: right;
+                width: 75%;
+                height: 70%;
+            }
+        </style>
+
         <div id="BodyArea">
 
             <!-- 왼쪽메뉴Zone시작 -->
@@ -305,7 +326,7 @@
             <!-- 왼쪽메뉴Zone끝 -->
 
             <!-- 내용Zone시작 -->
-            <iv id="contentsZone"></iv>
+            <div id="contentsZone"></div>
             <!-- 내용Zone끝 -->
 
         </div>
