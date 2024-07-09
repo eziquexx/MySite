@@ -73,153 +73,26 @@
 <body>
     <div id="site">
 
-
         <!-- 상단Area시작 -->
         <div id="topArea">
 
             <!-- 타이틀Zone시작 -->
-            <!-- <style>
-                #titleZone {
-                    background-color: yellowgreen;
-                    position: relative;
-                }
-                #gnb {
-                    position: absolute;
-                    right: 20px;
-                    top: 5px;
-                }
-                #gnb > ul {
-                    overflow: hidden;
-                }
-                #gnb > ul > li {
-                    float: left;
-                    margin: 0px 10px;
-                }
-                #logo {
-                    width: 200px;
-                    margin: 5px auto;
-                }
-                #logo > img {
-                    width: 100%;
-                    display: block;
-                    box-sizing: border-box;
-                }
-            </style>
-            <div id="titleZone">
-                <div id="gnb">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Mypage</a></li>
-                    </ul>
-                </div>
-                <div id="logo">
-                    <img src="./img/logo.jpg" alt="">
-                </div>
-            </div> -->
             <div id="titleZonePage"></div>
             <script>
                 $(function(){
                     includeHTML('titleZonePage', 'titleZonePage.html', null);
                 });
             </script>
-            <!-- 타이틀Zone끝 -->
-             
+            <!-- 타이틀Zone끝 -->  
 
-            <style>
-                #menuZone {
-                    position: relative;
-                    background-color: #333;
-                }
-                .mainmenu {
-                    display: flex;
-                    background-color: #333;
-                    width: 700px;
-                    margin: 0 auto;
-                    padding: 0;
-                }
-                .mainmenu > li {
-                    position: relative;
-                }
-                .mainmenu > li > a {
-                    display: block;
-                    color: white;
-                    padding: 15px 20px;
-                }
-                .mainmenu > li:hover > a {
-                    background-color: #444;
-                }
-                .mainmenu > li:hover > .submenu {
-                    display: block;
-                }
-
-                .submenu {
-                    display: none;
-                    position: absolute;
-                    top: 100%;
-                    left: 0;
-                    background-color: #444;
-                    width: 200px;
-                    z-index: 10;
-                }
-                .submenu > li > a {
-                    display: block;
-                    color: white;
-                    padding: 10px;
-                }
-                .submenu > li > a:hover {
-                    background-color: #555;
-                }
-            </style>
 
             <!-- 메뉴Zone시작 -->
-            <div id="menuZone">
-                <ul class="mainmenu">
-                    <li>
-                        <a href="#">캠프장 소개</a>
-                        <ul class="submenu">
-                            <li><a href="#">인사말</a></li>
-                            <li><a href="#">시설보기</a></li>
-                            <li><a href="#">오시는길</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">사이트보기</a>
-                        <ul class="submenu">
-                            <li><a href="#">시설물보기</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">예약안내</a>
-                        <ul class="submenu">
-                            <li><a href="#">예약안내</a></li>
-                            <li><a href="#">시설보기</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">특별함</a>
-                        <ul class="submenu">
-                            <li><a href="#">특별함</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">인기여행지</a>
-                        <ul class="submenu">
-                            <li><a href="#">인근여행지</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">커뮤니티</a>
-                        <ul class="submenu">
-                            <li><a href="#">공지사항</a></li>
-                            <li><a href="#">고객문의</a></li>
-                            <li><a href="#">이용후기</a></li>
-                            <li><a href="#">포토갤러리</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <div id="menuZonePage"></div>
+            <script>
+                $(function(){
+                    includeHTML('menuZonePage', 'menuZonePage.html', null);
+                });
+            </script>
             <!-- 메뉴Zone끝 -->
 
 
@@ -262,53 +135,17 @@
         <div id="BodyArea">
 
             <!-- 왼쪽메뉴Zone시작 -->
-            <style>
-                /* #left_menu_box {
-                    text-align: center;
-                } */
-                 .left_menu_title {
-                    font-size: 32px;
-                    font-weight: 800;
-                    text-align: center;
-                    display: block;
-                 }
-                 .left_menu {
-                    font-size: 20px;
-                    color: gray;
-                    padding-left: 15px;
-                 }
-                 .left_banner_title {
-                    font-size: 32px;
-                    font-weight: 800;
-                    text-align: center;
-                    display: block;
-                 }
-                 .left_banner {
-                    font-size: 15px;
-                    color: gray;
-                    padding-left: 15px;
-                    text-align: center;
-                 }
-            </style>
-            <div id="leftmenuZone">
-                <div id="left_menu_box">
-                    <span class="left_menu_title">특별함</span>
-                    <ul>
-                        <li class="left_menu"><a href="#">특별함</a></li>
-                    </ul>
-                </div>
-                <div id="left_banner_box">
-                    <span class="left_banner_title">고객센터</span>
-                    <ul>
-                        <li class="left_banner">070-1234-1515</li>
-                        <li class="left_banner">농협 000-00-0000<br>홍길동</li>
-                    </ul>
-                </div>
-            </div>
+            <div id="leftmenuZonePage"></div>
+            <script>
+                $(function(){
+                    includeHTML('leftmenuZonePage', 'page_4_menu.html', null);
+                });
+            </script>
             <!-- 왼쪽메뉴Zone끝 -->
 
+
             <!-- 내용Zone시작 -->
-             <!-- <style>
+            <style>
                 .contents_title{
                     font-size: 32px;
                     padding: 10px 30px;
@@ -321,60 +158,55 @@
                     padding : 5px;
                     border-bottom: 1px solid green;
                 }
-             </style>
+            </style>
             <div id="contentsZone">
                 <div class="contents_title">특별함</div>
                 <div id="article" class="contents">
                     <h3>사계절 낭만이 있는 곳에서 행복한 추억을 많이 만들어 가세요</h3>
-                    <table border="0" style="width: 100%;">
+                    <table class="album" border="0" style="width: 100%;">
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="img/album_01.jpg" width="200" alt="">
+                                    <img src="img/album_01.jpg" width="160" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
+                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.                                    
+                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>                         
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="img/album_01.jpg" width="200" alt="">
+                                    <img src="img/album_01.jpg" width="160" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
+                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.                                    
+                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>                         
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <a href="#">
-                                    <img src="img/album_01.jpg" width="200" alt="">
+                                    <img src="img/album_01.jpg" width="160" alt="">
                                 </a>
                             </td>
                             <td>
                                 <a href="#">
-                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
+                                    비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.                                    
+                                    <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>                         
                                 </a>
                             </td>
                         </tr>
                     </table>
                 </div>
-            </div> -->
-            <div id="menuZonePage"></div>
-            <script>
-                $(function(){
-                    includeHTML('menuZonePage', 'menuZonePage.html', null);
-                });
-            </script>
+
+            </div>
             <!-- 내용Zone끝 -->
 
         </div>
