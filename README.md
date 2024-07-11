@@ -44,10 +44,10 @@ HTML5와 CSS3를 사용하여 구현할 웹사이트의 뼈대를 제작하고 �
 ## 📋 저작권 및 사용권 정보
 |Name|License|Copyright|
 |------|---|---|
-|[벤치마킹 웹사이트](https://www.flaticon.com/, "카페24")| |COPYRIGHT 2023 WBEBASE ALL RIGHTS RESERVED.|
-|[FLATICON](https://www.flaticon.com/, "FLATICON")|FLATICON|Copyright © 2010-2024 Freepik Company S.L. All rights reserved.|
+|[벤치마킹 웹사이트](https://www.flaticon.com, "카페24")| |COPYRIGHT 2023 WBEBASE ALL RIGHTS RESERVED.|
+|[FLATICON](https://www.flaticon.com, "FLATICON")|FLATICON|Copyright © 2010-2024 Freepik Company S.L. All rights reserved.|
 |[jQuery](https://jquery.com/)|MIT license|Copyright 2024 OpenJS Foundation and jQuery contributors. All rights reserved.|
-|[jQuery Easings](https://api.jqueryui.com/easings/, "jQuery Easing 효과")|Open source under the BSD License.|Copyright 2024 OpenJS Foundation and jQuery contributors. All rights reserved.|
+|[jQuery Easings](https://api.jqueryui.com/easings, "jQuery Easing 효과")|Open source under the BSD License.|Copyright 2024 OpenJS Foundation and jQuery contributors. All rights reserved.|
 |[Google Fonts Montserrat](https://fonts.google.com/specimen/Montserrat, "Google Web Font Montserrat 사용")|Open Font License.|Designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly|
 
 * 벤치마킹 웹사이트 주소: <https://d.cafe24.com/preview?productCode=PTHD827889&frame=P>
